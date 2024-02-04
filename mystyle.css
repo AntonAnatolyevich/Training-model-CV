@@ -1,12 +1,484 @@
-.row {
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(".\sorce\fonts\Montserrat\Montserrat-VariableFont_wght.ttf");
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  border: thick double #32a1ce;
+  background: #ffffff;
+}
+
+/*.row {
   display: flex;
 }
 
 .column {
   flex: 50%;
+}*\
+
+/* Top color
+.hat {
+  position: absolute;
+  width: 595px;
+  height: 290px;
+  left: 0px;
+  top: 0px;
+  background: rgba(149, 212, 232, 0.5);
+}*/
+
+/* Cv_Photo */
+.CV_Photo {
+  position: absolute;
+  width: 165px;
+  height: 243px;
+  left: 21px;
+  top: 22px;
+
+  border-radius: 15px;
 }
 
-.content {
-  max-width: 500px;
-  margin: auto;
+/* Ахраменко Антон Анатольевич */
+.Full_name {
+  position: absolute;
+  width: 293px;
+  height: 58px;
+  left: 208px;
+  top: 26px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+/* Backend разработчик */
+.Backend_dev {
+  position: absolute;
+  width: 246px;
+  height: 24px;
+  left: 209px;
+  top: 94px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+/* Мурманск */
+.Murmansk {
+  position: absolute;
+  width: 84px;
+  height: 18px;
+  left: 237px;
+  top: 164px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+/* Дата рождения: 15.07.2002 (20 лет) */
+.Birthday {
+  position: absolute;
+  width: 217px;
+  height: 18px;
+  left: 212px;
+  top: 132px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+/* Akhramenko_2002@mail.ru */
+.Mail {
+  position: absolute;
+  width: 218px;
+  height: 18px;
+  left: 237px;
+  top: 192px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+/* @Anton_Akhramenko */
+.Telegram {
+  position: absolute;
+  width: 150px;
+  height: 18px;
+  left: 237px;
+  top: 218px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+/* +7 (991) 112-82-20 */
+.Phone {
+  position: absolute;
+  width: 120px;
+  height: 15px;
+  left: 237px;
+  top: 242px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.PointPic {
+  position: absolute;
+  left: 35.46%;
+  right: 62.02%;
+  top: 19.48%;
+  bottom: 78.38%;
+}
+
+.MailPic {
+  position: absolute;
+  left: 35.13%;
+  right: 61.51%;
+  top: 22.68%;
+  bottom: 74.98%;
+}
+
+.PlanePic {
+  position: absolute;
+  left: 35.46%;
+  right: 61.85%;
+  top: 26.13%;
+  bottom: 72.21%;
+}
+
+.PhonePic {
+  position: absolute;
+  left: 35.63%;
+  right: 61.51%;
+  top: 28.86%;
+  bottom: 69.12%;
+}
+
+/* MSTU_logo 1 */
+.MSTUPic {
+  position: absolute;
+  width: 66.04px;
+  height: 81px;
+  left: 510px;
+  top: 22px;
+
+  background: url(MSTU_logo.png);
+}
+
+.BoxPic {
+position: absolute;
+width: 83.53px;
+height: 60px;
+left: 501px;
+top: 761px;
+
+background: url(1212121.png);
+
+}
+
+/* Опыт работы */
+.Exp {
+  position: absolute;
+  width: 147px;
+  height: 24px;
+  left: 30px;
+  top: 301px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+/* Навыки */
+
+.Skills {
+  position: absolute;
+  width: 147px;
+  height: 24px;
+  left: 373px;
+  top: 301px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+/* Образование */
+.Edu {
+  position: absolute;
+  width: 147px;
+  height: 24px;
+  left: 30px;
+  top: 593px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+/* Личные качества */
+.Pers {
+  position: absolute;
+  width: 198px;
+  height: 24px;
+  left: 373px;
+  top: 542px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.Exp_text11 {
+  position: absolute;
+  width: 315px;
+  height: 93px;
+  left: 31px;
+  top: 340px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #414141;
+}
+
+.Exp_text12 {
+
+position: absolute;
+width: 315px;
+height: 51px;
+left: 30px;
+top: 381px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #414141;
+
+
+}
+
+.Exp_text21 {
+
+position: absolute;
+width: 315px;
+height: 59px;
+left: 31px;
+top: 443px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #414141;
+
+
+}
+
+.Exp_text22 {
+
+position: absolute;
+width: 315px;
+height: 68px;
+left: 30px;
+top: 505px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #414141;
+
+
+}
+
+/* ИС учета воспитанников в спортивной школе */
+
+
+
+
+
+.Edu_text1 {
+
+position: absolute;
+width: 315px;
+height: 16px;
+left: 30px;
+top: 632px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #414141;
+
+
+}
+
+.Edu_text2 {
+
+
+position: absolute;
+width: 315px;
+height: 67px;
+left: 31px;
+top: 652px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #414141;
+
+}
+
+/* OSI ASP.NET MS SQL HTML CSS C# Linux ООП Git */
+.Skills_text {
+  position: absolute;
+  width: 209px;
+  height: 36px;
+  left: 374px;
+  top: 340px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #414141;
+}
+
+.Pers_text {
+  position: absolute;
+  width: 216px;
+  height: 102px;
+  left: 373px;
+  top: 581px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #414141;
+}
+/* Lines*/
+
+.Exp_Line {
+  position: absolute;
+  width: 325px;
+  height: 0px;
+  left: 21px;
+  top: 331px;
+
+  opacity: 0.5;
+  border: 1px solid #c6c5c5;
+}
+
+.Skills_Line {
+  position: absolute;
+  width: 225px;
+  height: 0px;
+  left: 364px;
+  top: 331px;
+
+  opacity: 0.5;
+  border: 1px solid #c6c5c5;
+}
+
+.Edu_Line {
+  position: absolute;
+  width: 325px;
+  height: 0px;
+  left: 21px;
+  top: 623px;
+
+  opacity: 0.5;
+  border: 1px solid #c6c5c5;
+}
+
+.Pers_Line {
+  position: absolute;
+  width: 225px;
+  height: 0px;
+  left: 364px;
+  top: 572px;
+
+  opacity: 0.5;
+  border: 1px solid #c6c5c5;
 }
