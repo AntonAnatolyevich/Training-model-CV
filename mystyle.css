@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
