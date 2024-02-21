@@ -15,7 +15,9 @@ ul {
   height: 842px;
   border: thick double #32a1ce;
   background: #ffffff;
-  z-index: -1;
+  z-index: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*.row {
@@ -48,7 +50,9 @@ background: rgba(149, 212, 232, 0.46);
   height: 243px;
   left: 21px;
   top: 22px;
-  
+  background-image: url(sorce/images/CV.jpg);
+  background-position: center center;
+  background-size: cover;
   border-radius: 15px;
 }
 
